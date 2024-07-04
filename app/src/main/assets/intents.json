@@ -1,0 +1,46 @@
+{
+  "intents": [
+    {
+      "tag": "hello",
+      "patterns": ["hello", "hi", "good morning", "hello", "hi", "good morning"],
+      "responses": [""]
+    },
+    {
+      "tag": "items_order_list",
+      "patterns": ["i want to order something", "what type of food do you have", "i want to see the menu"],
+      "responses": [""]
+    },
+    {
+      "tag": "exit",
+      "patterns": ["bye", "stop", "quit", "I want to quit", "goodbye", "i want to exit", "i have to go"],
+      "responses": [""]
+    },
+    {
+      "tag": "show_pizzas",
+      "patterns": ["show me the pizzas", "what pizzas do you have", "i want to see the pizzas", "list the pizzas",
+      "show me the pizzas", "what pizzas do you have"],
+      "responses": [""]
+    },
+    {
+      "tag": "add_pizza",
+      "patterns": ["add a pizza", "i want to add a pizza", "add a pizza to my order", "i want a pizza"],
+      "responses": [""]
+    },
+    {
+      "tag": "show_sodas",
+      "patterns": ["show me the sodas", "what sodas do you have", "i want to see the sodas",
+        "show me the sodas", "what sodas do ou have"],
+      "responses": [""]
+    },
+    {
+      "tag": "add_soda",
+      "patterns": ["add a soda", "i want to add a soda", "add a soda to my order", "i want a soda"],
+      "responses": [""]
+    },
+    {
+      "tag": "finalize_order",
+      "patterns": ["that is all i want to order", "finalize my order", "i am done ordering", "that is it for my order"],
+      "responses": [""]
+    }
+  ]
+}
